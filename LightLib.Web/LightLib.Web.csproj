@@ -16,6 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Library.Web' " />
   <ItemGroup>
     <ProjectReference Include="..\LightLib.Data\LightLib.Data.csproj" />
     <ProjectReference Include="..\LightLib.Models\LightLib.Models.csproj" />
